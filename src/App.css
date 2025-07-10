@@ -1,0 +1,126 @@
+/* Genel Sıfırlama */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #61dafb;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.newpost-button{
+ 
+  margin-left: 550px}
+.nav-links {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links:hover {
+  color: #61dafb;
+}
+
+.nav-item {
+  transition: transform 0.2s ease;
+}
+
+.nav-item:hover {
+  transform: scale(1.05);
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+}
+
+.container {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+h1{
+    text-align: center;
+   color: #ff4d4f;
+}
+button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.post-cart {
+  background: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+.detail-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #f3f4f6;
+  background-color: #6784bd;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.delete-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.update-btn{
+   background-color: #6784bd;
+  color: white;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
